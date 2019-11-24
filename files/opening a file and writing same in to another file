@@ -1,0 +1,4 @@
+f=open("abc.txt","r")
+w=open("sc.txt","w")
+d=f.readlines()
+w.write(d)

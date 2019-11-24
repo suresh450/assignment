@@ -1,0 +1,17 @@
+s="module"
+t="endmodule"
+count=0
+f=open("c.txt","r")
+d=f.readlines()
+
+for l in d:
+	l.lstrip(s)
+	
+	if not l.startswith(s):
+	
+		count=count+1
+		
+	if(l.startswith(t)):
+		break
+		
+print(count-1)

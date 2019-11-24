@@ -1,0 +1,4 @@
+f=open("1logtxt","r")
+d=f.readlines()
+for l in d:
+	prnt(l)

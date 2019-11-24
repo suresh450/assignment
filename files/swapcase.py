@@ -1,0 +1,6 @@
+f=open("t.txt","r")
+w=open("v.txt","w")
+d=f.read()
+e=d.swapcase()
+w.write(e)
+print(e)

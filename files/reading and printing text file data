@@ -1,0 +1,4 @@
+f=open("b.txt","r")
+d=f.readlines()
+for l in d:
+	print(l)

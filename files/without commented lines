@@ -1,0 +1,7 @@
+
+f=open("t.txt","r")
+w=open("s.txt","w")
+d=f.readlines()
+for l in d:
+	if  not l.startswith("#"):
+		print(l)

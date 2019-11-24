@@ -1,0 +1,5 @@
+f=open("t.txt","r")
+w=open("u.txt","w")
+d=f.read()
+e=d.upper()
+w.write(e)
